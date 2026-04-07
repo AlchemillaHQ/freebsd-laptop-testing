@@ -1,34 +1,34 @@
 === FreeBSD Hardware Status Info ===
 
 Running: FreeBSD 15.0-RELEASE-p2 GENERIC
-Hardware: 21KG
+Hardware: Lenovo ThinkBook G6 
 ------------------------------------
 
 - Graphics
-  Device 1 Status: UNKNOWN
+  Device 1 Status: WORKS
     vgapci0@pci0:0:2:0:	class=0x030000 rev=0x04 hdr=0x00 vendor=0x8086 device=0xa7a0 subvendor=0x17aa subdevice=0x3f96
         vendor     = 'Intel Corporation'
         device     = 'Raptor Lake-P [Iris Xe Graphics]'
         class      = display
         subclass   = VGA
 
-  Category Total Score: 0/2
+  Category Total Score: 1/2
 
 --------------------
 
 - Networking
-  Device 1 Status: UNKNOWN
+  Device 1 Status: WORKS
     iwlwifi0@pci0:0:20:3:	class=0x028000 rev=0x01 hdr=0x00 vendor=0x8086 device=0x51f1 subvendor=0x8086 subdevice=0x0274
         vendor     = 'Intel Corporation'
         device     = 'Raptor Lake PCH CNVi WiFi'
         class      = network
-  Device 2 Status: UNKNOWN
+  Device 2 Status: WORKS
     em0@pci0:0:31:6:	class=0x020000 rev=0x01 hdr=0x00 vendor=0x8086 device=0x0dc6 subvendor=0x17aa subdevice=0x3807
         vendor     = 'Intel Corporation'
         device     = 'Ethernet Connection (23) I219-V'
         class      = network
 
-  Category Total Score: 0/4
+  Category Total Score: 2/2
 
 --------------------
 
@@ -38,18 +38,18 @@ Hardware: 21KG
         device     = 'Raptor Lake-P/U/H cAVS'
         class      = multimedia
 
-  Category Total Score: 0/2
+  Category Total Score: 2/2
 
 --------------------
 
 - Storage
-  Device 1 Status: UNKNOWN
+  Device 1 Status: WORKS
     nvme0@pci0:1:0:0:	class=0x010802 rev=0x01 hdr=0x00 vendor=0x1344 device=0x5416 subvendor=0x1344 subdevice=0x1100
         vendor     = 'Micron Technology Inc'
         device     = '2550 NVMe SSD (DRAM-less)'
         class      = mass storage
 
-  Category Total Score: 0/2
+  Category Total Score: 2/2
 
 --------------------
 
